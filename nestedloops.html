@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+
+//nested for loops
+let rows = 5;
+for (let i = 1; i <= rows; i++) {      
+  let pattern = ""                   
+  for (let j = 1; j <= i; j++) {       
+    pattern += "*"              
+  }
+  console.log(pattern);              
+}
+
+//while loop
+
+let rows1 = 10
+let i = 1
+while (i <= rows1) {               
+  let j = 1;
+  let pattern1 = "";                
+  
+  while (j <= i) {                
+    pattern1 += "#";                
+    j++;
+  }
+  
+  console.log(pattern1);           
+  i++;
+}
+
+
+//do-while
+
+let count = 1;
+do {
+    console.log(count);
+    count++;
+} while (count <= 5);
+
+
+
+</script>
+</body>
+</html>
